@@ -1,0 +1,22 @@
+{
+  "name": "runx",
+  "displayName": "runx",
+  "description": "Search and inspect Runx skills through its public hosted MCP. Governed execution runs in the separate local runtime.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Runx",
+    "email": "ask@runx.ai"
+  },
+  "homepage": "https://runx.ai",
+  "repository": "https://github.com/runxhq/runx-plugin",
+  "license": "Apache-2.0",
+  "keywords": [
+    "runx",
+    "agent skills",
+    "skill discovery",
+    "receipts",
+    "governed execution"
+  ],
+  "logo": "./assets/logo.png",
+  "mcpServers": "mcp.json"
+}
