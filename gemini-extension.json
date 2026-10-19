@@ -1,0 +1,11 @@
+{
+  "name": "runx",
+  "version": "0.1.0",
+  "description": "Find and inspect Runx skills. Governed execution runs locally with explicit authority and receipts.",
+  "mcpServers": {
+    "runx": {
+      "httpUrl": "https://api.runx.ai/mcp",
+      "description": "Read-only discovery of public Runx skills"
+    }
+  }
+}
