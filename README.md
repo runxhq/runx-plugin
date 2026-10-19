@@ -6,6 +6,16 @@ Search the public Runx skill catalog and inspect a skill's source and requiremen
 
 The plugin includes one guided [discovery skill](skills/runx-discovery/SKILL.md) and the current folded-R mark for marketplace cards. It does not install or invoke the Runx runtime, grant access to local files or providers, or mint a receipt.
 
+## Gemini CLI
+
+Install the same read-only hosted discovery connection and bundled skill with:
+
+```bash
+gemini extensions install https://github.com/runxhq/runx-plugin
+```
+
+Gemini CLI loads `gemini-extension.json` and the `runx-discovery` skill. Running a skill still requires the separate local Runx runtime and its authority checks.
+
 ## Connect now
 
 Remote MCP clients can use this server configuration:
