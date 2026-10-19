@@ -1,0 +1,47 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "runx",
+  "version": "0.1.1",
+  "description": "Search and inspect Runx skills through its public hosted MCP. Governed execution runs in the separate local runtime.",
+  "author": {
+    "name": "Runx",
+    "email": "ask@runx.ai",
+    "url": "https://runx.ai"
+  },
+  "repository": "https://github.com/runxhq/runx-plugin",
+  "homepage": "https://runx.ai",
+  "license": "Apache-2.0",
+  "keywords": [
+    "runx",
+    "agent skills",
+    "skill discovery",
+    "receipts",
+    "governed execution"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Runx",
+        "shortDescription": "Find and inspect agent skills",
+        "longDescription": "Search the public Runx skill catalog and inspect what a skill does, needs and permits. Governed execution happens in the separately installed Apache-2.0 Runx runtime, with explicit authority and signed receipts.",
+        "developerName": "Runx",
+        "category": "Developer Tools",
+        "capabilities": [
+          "Search skills",
+          "Inspect skill requirements"
+        ],
+        "websiteURL": "https://runx.ai",
+        "supportURL": "https://runx.ai/support",
+        "privacyPolicyURL": "https://runx.ai/privacy",
+        "termsOfServiceURL": "https://runx.ai/terms",
+        "defaultPrompt": [
+          "Find Runx skills for reviewing a pull request.",
+          "Inspect the requirements and license of a Runx skill before I use it.",
+          "Find a skill for a bounded research task and tell me what authority it needs."
+        ],
+        "composerIcon": "./assets/logo.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}

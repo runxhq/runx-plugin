@@ -21,7 +21,7 @@ Remote MCP clients can use this server configuration:
 }
 ```
 
-For Claude Code, `claude mcp add --transport http runx https://api.runx.ai/mcp` adds the same remote server. The `.mcp.json`, `mcp.json` and host manifests in this repository package it for Grok Build, Claude plugins and Cursor plugins. Marketplace acceptance is separate from this public source package.
+For Claude Code, `claude mcp add --transport http runx https://api.runx.ai/mcp` adds the same remote server. The host manifests and `.mcp.json` package it for Grok Build, Claude Code and Cursor. Root `plugin.json` and the Agent Plugins `mcp.json` supply portable ChatGPT/Codex metadata with unauthenticated, read-only hosted discovery. Public directory review is separate from this source package; no ChatGPT/Codex approval is claimed here.
 
 To install and execute skills locally, follow the [Runx documentation](https://runx.ai/docs) and the [Runx source](https://github.com/runxhq/runx/tree/main/oss). The hosted discovery connection does not execute local skills.
 
