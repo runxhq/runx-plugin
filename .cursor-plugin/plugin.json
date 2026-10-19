@@ -2,7 +2,7 @@
   "name": "runx",
   "displayName": "runx",
   "description": "Search and inspect Runx skills through its public hosted MCP. Governed execution runs in the separate local runtime.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "Runx",
     "email": "ask@runx.ai"
@@ -18,5 +18,5 @@
     "governed execution"
   ],
   "logo": "./assets/logo.png",
-  "mcpServers": "mcp.json"
+  "mcpServers": ".mcp.json"
 }
