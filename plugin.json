@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "runx",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Search and inspect Runx skills through its public hosted MCP. Governed execution runs in the separate local runtime.",
   "author": {
     "name": "Runx",
