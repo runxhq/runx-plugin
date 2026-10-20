@@ -4,7 +4,7 @@
 
 Search the public Runx skill catalog and inspect a skill's source and requirements from your agent client. This plugin connects to Runx's **hosted discovery MCP** at `https://api.runx.ai/mcp`. The hosted tools are `search_skills` and `get_skill`; both are read-only. Running a skill is a separate, local Runx operation with its own authority, approvals and receipt.
 
-The plugin includes one guided [discovery skill](skills/runx-discovery/SKILL.md) and the current folded-R mark for marketplace cards. It does not install or invoke the Runx runtime, grant access to local files or providers, or mint a receipt.
+The plugin includes one guided [discovery skill](skills/runx-discovery/SKILL.md) and the current Mechanism symbol for marketplace cards. It does not install or invoke the Runx runtime, grant access to local files or providers, or mint a receipt.
 
 ## Gemini CLI
 
